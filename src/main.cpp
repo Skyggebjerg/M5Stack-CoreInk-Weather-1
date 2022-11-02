@@ -26,12 +26,12 @@ char humStr[10];
 float temHere;
 float humHere;
 
-const char *ssid = "ShadowNets";        /// EDIIIT
-const char *password = "Shadow666"; // EDI8IT
-String town = "Bagsværd";              // EDDIT
-String Country = "DK";              // EDDIT
-const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=" + town + "," + Country + "&units=metric&APPID=";
-const String key = "806f3abba7ae3b7ae74d0c7adab2b10c"; /*EDIT                      */
+const char *ssid = "INSERT";        // EDIT
+const char *password = "PW";        // EDIT
+String town = "Bagsværd";           // EDIT
+String Country = "DK";              // EDIT
+const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=" + town + "," + Country + "&units=metric&APPID="; // INSERT OWN LOCATION
+const String key = "INSERT YOUR KEY HERE"; //EDIT
 
 String payload = ""; // whole json
 String tmp = "";     // temperatur
